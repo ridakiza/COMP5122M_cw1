@@ -1,0 +1,15 @@
+# Data loading and cleaning
+pandas>=2.0
+numpy>=1.24
+pyreadstat>=1.2       # reads the Pew .sav file with its value labels
+
+# Analysis
+scipy>=1.10
+statsmodels>=0.14     # confidence intervals and weighted statistics
+
+# Charts
+matplotlib>=3.7
+seaborn>=0.12
+
+# Notebooks
+jupyter
