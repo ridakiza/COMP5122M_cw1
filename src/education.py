@@ -10,6 +10,16 @@ COUNTRY_CODES = {
     "d_educ_italy":       7,
     "d_educ_netherlands": 8,
     "d_educ_poland":      9,
+    "d_educ_spain":       10,
+    "d_educ_sweden":      11,
+    "d_educ_uk":          12,
+    "d_educ_australia":   13,
+    "d_educ_india":       14,
+    "d_educ_indonesia":   15,
+    "d_educ_japan":       16,
+    "d_educ_skorea":      17,
+
+    "d_educ_turkey":      19,
 }
 
 CODE_TO_COUNTRY = {code: name for name, code in COUNTRY_CODES.items() if code is not None}
@@ -24,6 +34,16 @@ EDU_MAP = {
     "d_educ_italy":       {"Low": range(1, 4),  "Medium": range(4, 6),  "High": range(6, 9)},
     "d_educ_netherlands": {"Low": range(1, 5),  "Medium": range(5, 8),  "High": range(8, 11)},
     "d_educ_poland":      {"Low": range(1, 4),  "Medium": range(4, 8),  "High": range(8, 11)},
+    "d_educ_spain":       {"Low": range(1, 6),  "Medium": range(6, 8),  "High": range(8, 13)},
+    "d_educ_sweden":      {"Low": range(1, 4),  "Medium": range(4, 6),  "High": range(6, 11)},
+    "d_educ_uk":          {"Low": range(1, 3),  "Medium": range(3, 5),  "High": range(5, 10)},
+    "d_educ_australia":   {"Low": range(1, 2),  "Medium": range(2, 3),  "High": range(3, 4)},
+    "d_educ_india":       {"Low": range(1, 6),  "Medium": range(6, 7),  "High": range(7, 12)},
+    "d_educ_indonesia":   {"Low": range(1, 7),  "Medium": range(7, 8),  "High": range(8, 13)},
+    "d_educ_japan":       {"Low": range(1, 4),  "Medium": range(4, 5),  "High": range(5, 10)},
+    "d_educ_skorea":      {"Low": range(1, 5),  "Medium": range(5, 7),  "High": range(7, 11)},
+
+    "d_educ_turkey":      {"Low": range(1, 7),  "Medium": range(7,9),  "High": range(9, 12)}
 }
  
 # Flatten into {country: {code: level}} for fast lookup
