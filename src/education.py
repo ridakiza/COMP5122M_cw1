@@ -18,8 +18,15 @@ COUNTRY_CODES = {
     "d_educ_indonesia":   15,
     "d_educ_japan":       16,
     "d_educ_skorea":      17,
-
+    "d_educ_israel":      18,
     "d_educ_turkey":      19,
+    "d_educ_kenya":       20,
+    "d_educ_nigeria":     21,
+    "d_educ_safrica":     22,
+    "d_educ_argentina":   23,
+    "d_educ_brazil":      24,
+    "d_educ_mexico":      25,
+    
 }
 
 CODE_TO_COUNTRY = {code: name for name, code in COUNTRY_CODES.items() if code is not None}
