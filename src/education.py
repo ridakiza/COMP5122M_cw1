@@ -49,8 +49,14 @@ EDU_MAP = {
     "d_educ_indonesia":   {"Low": range(1, 7),  "Medium": range(7, 8),  "High": range(8, 13)},
     "d_educ_japan":       {"Low": range(1, 4),  "Medium": range(4, 5),  "High": range(5, 10)},
     "d_educ_skorea":      {"Low": range(1, 5),  "Medium": range(5, 7),  "High": range(7, 11)},
-
-    "d_educ_turkey":      {"Low": range(1, 7),  "Medium": range(7,9),  "High": range(9, 12)}
+    "d_educ_israel":      {"Low": range(1, 5),  "Medium": [*range(5, 11), 12],  "High": [11, *range(13, 16)]},
+    "d_educ_turkey":      {"Low": range(1, 7),  "Medium": range(7,9),  "High": range(9, 12)},
+    "d_educ_kenya":       {"Low": range(1, 7),  "Medium": range(7, 10),  "High": range(10, 14)},
+    "d_educ_nigeria":     {"Low": range(1, 5),  "Medium": range(5, 7),   "High": range(7, 12)},
+    "d_educ_safrica":     {"Low": range(1, 7),  "Medium": range(7, 12),  "High": range(12, 21)},
+    "d_educ_argentina":   {"Low": range(1, 5),  "Medium": range(5, 8),   "High": range(8, 12)},
+    "d_educ_brazil":      {"Low": range(1, 7),  "Medium": range(7, 9),   "High": range(9, 13)},
+    "d_educ_mexico":      {"Low": range(1, 6),  "Medium": range(6, 10),  "High": range(10, 13)},
 }
  
 # Flatten into {country: {code: level}} for fast lookup
