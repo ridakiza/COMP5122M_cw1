@@ -1,5 +1,22 @@
+# Raw and cleaned datasets
 data/raw/*
 !data/raw/.gitkeep
-.ipynb_checkpoints/
+
+data/clean/*
+!data/clean/.gitkeep
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
 __pycache__/
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# System files
 .DS_Store
+Thumbs.db
